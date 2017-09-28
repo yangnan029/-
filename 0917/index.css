@@ -1,0 +1,403 @@
+@charset "UTF-8";
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  color: #333;
+  background: #fff;
+}
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  height: 0;
+  clear: both;
+  display: block;
+}
+.header {
+  margin-bottom: 5px;
+}
+.header .head {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.header .head .user-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.header .head .user-info .cart {
+  padding-left: 28px;
+  position: relative;
+}
+.header .head .user-info .cart:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("https://res.vmallres.com/20170825/images/echannel/icon-common.png") no-repeat;
+}
+.header .head li {
+  float: left;
+  list-style: none;
+  height: 30px;
+}
+.header .head li.more {
+  position: relative;
+  padding-right: 10px;
+}
+.header .head li.more:hover {
+  box-shadow: 0 0 10px #ddd;
+}
+.header .head li.more:hover .more-details {
+  display: block;
+}
+.header .head li.more:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  position: relative;
+  top: 50%;
+  right: -64px;
+  margin-top: -30px;
+  border-top-color: #999;
+}
+.header .head li.more .more-details {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  z-index: 99;
+  background: #ffffff;
+  box-shadow: 0 0 10px #ddd;
+}
+.header .head li.more .more-details dd {
+  width: 150px;
+  text-align: center;
+}
+.header .head li a {
+  color: #a4a4a4;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 10px;
+  line-height: 30px;
+}
+.header .head li a:hover {
+  color: #ca151d;
+}
+.main-wrap {
+  min-height: 60vh;
+}
+.main-wrap .main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-wrap .main p {
+  text-indent: 195px;
+  line-height: 30px;
+}
+.main-wrap .main p:first-child {
+  text-indent: 0px;
+}
+.main-wrap .main p:nth-child(8) {
+  text-indent: 650px;
+  margin-top: 40px;
+}
+.main-wrap .main p:nth-child(2) {
+  text-indent: 40px;
+}
+.main-wrap .main p:nth-child(9) {
+  text-align: right;
+}
+.menu-nav {
+  width: 1200px;
+  padding: 10px 0px;
+  margin: 0 auto;
+}
+.menu-nav .logo {
+  width: 240px;
+  height: 50px;
+  float: left;
+}
+.menu-nav .logo img {
+  height: 50px;
+  border: none;
+}
+.menu-nav .nav {
+  width: 605px;
+  float: left;
+  margin-top: 10px;
+}
+.menu-nav .nav li {
+  float: left;
+  list-style: none;
+  margin-right: 15px;
+  padding: 0 5px;
+  border-bottom: 2px solid transparent;
+}
+.menu-nav .nav li:hover {
+  border-bottom-color: red;
+}
+.menu-nav .nav li:hover a {
+  color: red;
+}
+.menu-nav .nav li a {
+  color: #3a3a3a;
+  font-size: 16px;
+  line-height: 40px;
+  text-decoration: none;
+}
+.menu-nav .search {
+  position: relative;
+  width: 330px;
+  float: left;
+  margin-left: 25px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
+}
+.menu-nav .search input[type="text"] {
+  border: none;
+  outline: none;
+  width: 310px;
+  line-height: 30px;
+}
+.menu-nav .search input[type="submit"] {
+  border: none;
+  outline: none;
+  width: 20px;
+  height: 33px;
+  cursor: pointer;
+  border: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  background: url("https://res.vmallres.com/20170825/images/echannel/icon-common.png") no-repeat;
+  background-position: 0 -25px;
+}
+.slogan-wrap {
+  background: #f0f0f0;
+}
+.slogan-wrap .slogan {
+  width: 1200px;
+  margin: 0 auto;
+  height: 47px;
+  padding: 45px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+.slogan-wrap .slogan li {
+  float: left;
+  line-height: 47px;
+  font-size: 18px;
+  color: #3a3a3a;
+  height: 47px;
+  width: 300px;
+  text-align: left;
+  list-style: none;
+}
+.slogan-wrap .slogan li i {
+  display: inline-block;
+  line-height: 47px;
+  width: 47px;
+  height: 47px;
+  margin-right: 16px;
+  vertical-align: middle;
+  background: url("https://res.vmallres.com/20170825/images/echannel/icon-common.png") no-repeat;
+}
+.slogan-wrap .slogan li.s1 i {
+  background-position: 0 -151px;
+}
+.slogan-wrap .slogan li.s2 i {
+  background-position: -94px -151px;
+}
+.slogan-wrap .slogan li.s3 i {
+  background-position: -141px -151px;
+}
+.slogan-wrap .slogan li.s4 i {
+  background-position: -47px -151px;
+}
+.service-wrap {
+  background: #f0f0f0;
+}
+.service-wrap .service {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 26px 0 18px;
+}
+.service-wrap .service dl {
+  float: left;
+  width: 157px;
+}
+.service-wrap .service dl:last-child {
+  width: 170px;
+}
+.service-wrap .service dl:last-child dt {
+  padding-bottom: 0px;
+}
+.service-wrap .service dl:last-child dt:first-child {
+  margin-bottom: 6px;
+}
+.service-wrap .service dl dt {
+  font-size: 14px;
+  padding-bottom: 12px;
+  color: #3a3a3a;
+  display: block;
+  border-left: none;
+  padding-left: 0;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+.service-wrap .service dl dt strong {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.service-wrap .service dl dt:first-child {
+  background: #a8a8a8;
+  padding: 0;
+  width: 22px;
+  height: 2px;
+  margin: 2px 0 12px 0;
+}
+.service-wrap .service dl dd {
+  line-height: 25px;
+}
+.service-wrap .service dl dd .btn-line-primary {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 161px;
+  height: 35px;
+  padding: 0;
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+  color: #900 !important;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.service-wrap .service dl dd .btn-line-primary i {
+  background: url(https://res.vmallres.com/20170825/images/echannel/icon-common.png);
+  display: inline-block;
+  height: 18px;
+  width: 22px;
+  background-position: -303px -23px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.footer-wrap {
+  background: #e6e6e6;
+}
+.footer-wrap .footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 26px 0 34px;
+}
+.footer-wrap .footer .logo {
+  float: left;
+  width: 117px;
+}
+.footer-wrap .footer .logo img {
+  margin-top: 14px;
+}
+.footer-wrap .footer .instruction {
+  float: left;
+  width: 718px;
+}
+.footer-wrap .footer .instruction p {
+  line-height: 20px;
+}
+.footer-wrap .footer .right-copy {
+  float: left;
+  width: 365px;
+}
+.footer-wrap .footer .right-copy img {
+  margin-top: 14px;
+  width: 70px;
+  height: 24px;
+}
