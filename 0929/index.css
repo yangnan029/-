@@ -1,0 +1,230 @@
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #333;
+  background-color: #f7f7f7;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.head {
+  background-color: #EBEBEB;
+}
+.head .head-center {
+  width: 998px;
+  margin: 0 auto;
+  position: relative;
+  padding: 12px 0;
+}
+.head .head_l {
+  float: left;
+}
+.head .head_r b {
+  font-size: 18px;
+  line-height: 50px;
+  font-family: "arial";
+  font-weight: 400;
+  margin-left: 18px;
+}
+.head .head_r b.line {
+  color: #ccc;
+}
+.login {
+  background: url('https://hwid1.vmall.com/CAS/up/rss_12/css/portal/vmall_rss/loginEMUIV6/img/login_bg.png') no-repeat;
+  height: 588px;
+  width: 100%;
+}
+.login .login-center {
+  width: 1002px;
+  max-width: 1002px;
+  margin: 0 auto;
+  position: relative;
+}
+.login .login-center .login-left {
+  float: left;
+}
+.login .login-center .login-left img {
+  width: 640px;
+  height: 588px;
+  display: block;
+}
+.login .login-center .login-box {
+  width: 346px;
+  height: 485px;
+  background: #fff;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.login .login-center .login-box .h {
+  width: 100%;
+  margin: 24px auto 36px;
+  text-align: center;
+}
+.login .login-center .login-box .h span {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 500;
+  cursor: pointer;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.login .login-center .login-box .h span.span1 {
+  color: #B40707;
+  border-right: 1px solid #ccc;
+}
+.login .login-center .login-box .h span a:hover {
+  color: #B40707;
+}
+.login .login-center .login-box .h span a:link {
+  color: #333;
+}
+.login .login-center .login-box .login-form {
+  width: 294px;
+  margin: 0 auto;
+}
+.login .login-center .login-box .login-form table td {
+  width: 294px;
+  height: 44px;
+}
+.login .login-center .login-box .login-form table td input[type=text] {
+  border: none;
+  outline: none;
+  width: 100%;
+  line-height: 30px;
+  border-bottom: 1px solid #ccc;
+  color: #ccc;
+}
+.login .login-center .login-box .login-form table td.yanzheng {
+  padding-top: 10px;
+}
+.login .login-center .login-box .login-form table td.handle {
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+.login .login-center .login-box .login-form table td.bottom-line {
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+  line-height: 30px;
+}
+.login .login-center .login-box .login-form table td.bottom-line i {
+  display: inline-block;
+  width: 94px;
+  height: 1px;
+  background: #ddd;
+  vertical-align: middle;
+}
+.login .login-center .login-box .login-form table td.bottom-line span {
+  margin: 0 10px;
+}
+.login .login-center .login-box .login-form table td.other {
+  text-align: center;
+}
+.login .login-center .login-box .login-form table td.other span {
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  background: url('https://hwid1.vmall.com/CAS/up/rss_12/css/portal/vmall_rss/loginEMUIV6/img/third_login.png') no-repeat;
+}
+.login .login-center .login-box .login-form table td.other span.qq {
+  background-position: -72px -9px;
+}
+.login .login-center .login-box .login-form table td.other span.zfb {
+  margin: 0 10px;
+  background-position: -132px -9px;
+}
+.login .login-center .login-box .login-form table td.other span.wx {
+  background-position: -12px -9px;
+}
+.login .login-center .login-box .login-form table td .yanzheng-bth {
+  border: 1px solid #dddddd;
+  line-height: 44px;
+  text-align: center;
+  font-size: 12px;
+  color: #999999;
+}
+.login .login-center .login-box .login-form table td.remmber_Acc {
+  font-size: 12px;
+  font-family: Microsoft Yahei,STHeiti,Simsun,STSong;
+  color: #333;
+  line-height: 14px;
+  vertical-align: middle;
+}
+.login .login-center .login-box .login-form table td.remmber_Acc input[type=checkbox] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.login .login-center .login-box .login-form table td input[type=button] {
+  width: 100%;
+  height: 44px;
+  background-color: #B40707;
+  border-radius: 26px;
+  color: #fff;
+  outline: none;
+}
+.footer {
+  /*  width: 1000px
+    margin: 0 auto; */
+}
+.footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+.footer p a {
+  font-size: 14px;
+  color: #999;
+  text-decoration: none;
+}
